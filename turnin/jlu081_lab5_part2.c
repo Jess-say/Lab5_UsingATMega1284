@@ -152,7 +152,6 @@ int main(void) {
 
 	while (1) {
 		button = ~PINA & 0x03; // gets PA0 and PA1
-		//A = PINA & 0x03; // gets first and second bit
 		Button();
 		PORTC = C;
     	}	
